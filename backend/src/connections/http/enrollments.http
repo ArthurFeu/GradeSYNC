@@ -1,0 +1,26 @@
+### Create a New Enrollment
+POST http://localhost:5000/enrollments
+Content-Type: application/json
+
+{
+  "student_id": 1,
+  "course_id": 5
+}
+
+### List All Enrollments
+GET http://localhost:5000/enrollments
+
+### Search Enrollment by ID
+GET http://localhost:5000/enrollments/1
+
+### Update Enrollment by ID
+PUT http://localhost:5000/enrollments/1
+Content-Type: application/json
+
+{
+  "student_id": 2,
+  "course_id": 1
+}
+
+### Delete Enrollment by ID
+DELETE http://localhost:5000/enrollments/1

@@ -1,0 +1,33 @@
+### Create Student
+POST http://localhost:5000/students
+Content-Type: application/json
+
+{
+  "name": "Arthur Feu",
+  "email": "arthurfeufeu@gmail.com",
+  "ra": "67890123",
+  "cpf": "123.456.789-10"
+}
+
+### List All Students
+GET http://localhost:5000/students
+
+### Search Student by ID
+
+GET http://localhost:5000/students/1
+
+### Update Student by ID
+
+PUT http://localhost:5000/students/1
+Content-Type: application/json
+
+{
+  "name": "Arthur Feu",
+  "email": "arthurfeu@gmail.com",
+  "ra": "67890123",
+  "cpf": "123.456.789-10"
+}
+
+### Delete Student by ID
+
+DELETE http://localhost:5000/students/1

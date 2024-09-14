@@ -1,0 +1,30 @@
+### Create a New Course
+POST http://localhost:5000/courses
+Content-Type: application/json
+
+{
+  "name": "Data Analysis",
+  "description": "An intensive course on data analysis. This course is desined to teach you how to analyze data using Python and its libraries",
+  "code": "CS-001",
+  "school_id": 1
+}
+
+### List All Courses
+GET http://localhost:5000/courses
+
+### Search Course by ID
+GET http://localhost:5000/courses/4
+
+### Update Course by ID
+PUT http://localhost:5000/courses/9
+Content-Type: application/json
+
+{
+  "name": "Web Programming I",
+  "description": "A comprehensive course on web development covering both frontend and backend technologies.",
+  "code": "CS-002",
+  "school_id": "1"
+}
+
+### Delete Course by ID
+DELETE http://localhost:5000/courses/9

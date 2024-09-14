@@ -1,0 +1,26 @@
+### Create a New School
+POST http://localhost:5000/schools
+Content-Type: application/json
+
+{
+  "name": "Mechanical Engineering",
+  "description": "The Mechanical Engineering department focuses on the design and analysis of machines."
+}
+
+### List All Schools
+GET http://localhost:5000/schools
+
+### Search School by ID
+GET http://localhost:5000/schools/3
+
+### Update School by ID
+PUT http://localhost:5000/schools/2
+Content-Type: application/json
+
+{
+  "name": "Information Systems",
+  "description": "The Information Systems department focuses on business processes, system integration, and more."
+}
+
+### Delete School by ID
+DELETE http://localhost:5000/schools/3
