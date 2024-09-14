@@ -2,8 +2,6 @@
 
 Este projeto é uma aplicação web para o cadastro e gerenciamento de matrículas de alunos em turmas online. A aplicação permite a criação, edição, listagem e exclusão de registros de alunos, com o objetivo de facilitar o gerenciamento de matrículas em instituições de ensino.
 
-O backend foi desenvolvido para suportar todas as funcionalidades necessárias, incluindo rotas para gerenciamento de alunos (/students), cursos (/courses), matrículas (/enrollments) e escolas (/schools). No entanto, o frontend foi implementado apenas para a visualização e gestão de alunos. As rotas para cursos, matrículas e escolas ainda não possuem uma interface de usuário correspondente no frontend, o que significa que, no momento, os recursos dessas funcionalidades estão acessíveis apenas através da API.
-
 Mais imagens ao final.
 ![image](https://github.com/user-attachments/assets/6fa4b974-e14c-478a-ad01-50d1eab593bc)
 
