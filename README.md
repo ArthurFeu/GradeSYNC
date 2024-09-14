@@ -4,6 +4,10 @@ Este projeto é uma aplicação web para o cadastro e gerenciamento de matrícul
 
 O backend foi desenvolvido para suportar todas as funcionalidades necessárias, incluindo rotas para gerenciamento de alunos (/students), cursos (/courses), matrículas (/enrollments) e escolas (/schools). No entanto, o frontend foi implementado apenas para a visualização e gestão de alunos. As rotas para cursos, matrículas e escolas ainda não possuem uma interface de usuário correspondente no frontend, o que significa que, no momento, os recursos dessas funcionalidades estão acessíveis apenas através da API.
 
+Mais imagens ao final.
+![image](https://github.com/user-attachments/assets/6fa4b974-e14c-478a-ad01-50d1eab593bc)
+
+
 ## Tecnologias Utilizadas
 
 ### Front-end:
@@ -47,4 +51,9 @@ O backend foi desenvolvido para suportar todas as funcionalidades necessárias, 
     ```bash
     npm run start
     ```
+
+![image](https://github.com/user-attachments/assets/56357511-7477-4a54-adb4-938590d814f3)
+![image](https://github.com/user-attachments/assets/43c6dc1e-b025-468b-947b-17a51480b682)
+![image](https://github.com/user-attachments/assets/abb4ad71-9321-4f99-8849-fd88bbd7f2c5)
+
 
